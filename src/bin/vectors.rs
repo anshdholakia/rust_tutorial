@@ -20,4 +20,10 @@ fn main() {
     for i in &mut vec2 {
         *i *= 2;
     }
+    for i in &mut vec2 {
+        println!("{}", i);
+    }
+    println!("Vec length {}", vec2.len());
+    println!("Pop {:?}", vec2.pop());
+    
 }
